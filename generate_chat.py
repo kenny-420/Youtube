@@ -99,5 +99,5 @@ if __name__=='__main__':
     filename = get_filename()
     with open(filename, encoding="utf8") as f:
         lines = f.read().splitlines()
-    rurrent_time = datetime.datetime.now()
+    current_time = datetime.datetime.now()
     save_images(lines, init_time=current_time)
